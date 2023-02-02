@@ -1,0 +1,56 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "smk74p4lw2a4r9dxfklz5rvfxfslucvf",
+    "fields": {
+        "session_data": ".eJxVjDkOwjAURO_iGllevpdQ0ucM1veGA8iW4qRC3B1HSgHNFPPezJs43Lfi9p5Wt0RyJYJcfjuP4ZnqAeID673R0Oq2Lp4eCj1pp3OL6XU73b-Dgr2MtWQmAIL0kzCgeZ6s9BkBRdACmZJGASoduJQMo1UjmBoYctQsW87I5wvDMjcf:1pIPYM:XXK0UdtgC49v6LqfyXak8qJibZwHyPBt6XlCXW-OuSo",
+        "expire_date": "2023-02-02T07:41:42.657Z"
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$TAwyMdJWXZ7Y763nB1JqlD$r6geEhmEIby+Baag0R7LEb1JkjlbKtHK0LZ8jr3lCTM=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "bek2",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2023-01-19T07:26:05.781Z",
+        "patronymic": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$UBvPDx7IYXXgB7WQVtU40N$xdSWhzQHwXzPYGC3vfPozawSNfjnTjGX+n4XL/u7B84=",
+        "last_login": "2023-01-19T07:41:42.646Z",
+        "is_superuser": true,
+        "username": "bek",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2023-01-19T07:41:26.462Z",
+        "patronymic": "",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.profile",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "is_author": true
+    }
+}
+]

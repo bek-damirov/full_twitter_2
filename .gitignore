@@ -1,0 +1,7 @@
+.env.prod
+.env.prod.db
+app/entripoint.prod.sh
+venv/
+app/entrypoint.sh
+app/db.sqlite3/
+.idea
